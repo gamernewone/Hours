@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "hours"
+version = "0.0.1"
+description = "Track people's attendance with facial recognition"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+face-recognition = "^1.3.0"
+dlib = "^19.24.0"
+numpy = "^1.24.1"
+opencv-python = "^4.7.0.68"
+
+
+[tool.poetry.group.dev.dependencies]
+opencv-contrib-python = "^4.7.0.68"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
